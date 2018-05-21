@@ -1,0 +1,20 @@
+@-moz-document domain("hipchat.com") {
+
+ul.aui-nav.hc-sidebar-nav.hc-sortable.hc-rooms {
+   max-height: 90vh;
+   overflow: auto;
+}
+
+ul.aui-nav.hc-sidebar-nav.hc-sortable li {
+	display: none;
+}
+
+ul.aui-nav.hc-sidebar-nav.hc-sortable li.hc-has-badge, ul.aui-nav.hc-sidebar-nav.hc-sortable li.aui-nav-heading, ul.aui-nav.hc-sidebar-nav.hc-sortable li.aui-nav-selected {
+	display: list-item;
+}
+
+nav:hover ul.aui-nav.hc-sidebar-nav.hc-sortable li {
+	display: list-item;
+}
+
+}
